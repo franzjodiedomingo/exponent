@@ -7,7 +7,7 @@ def exponent(base, exp):
         result *= base
     return result
 
-base = 2
-exp = 5
+base = 5
+exp = 4
 result = exponent(base, exp)
 print(f"{base}^{exp} = {result}")
